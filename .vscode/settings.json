@@ -1,0 +1,15 @@
+{
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "files.exclude": {
+        ".gradle/": true,
+        "build/": true,
+        "bin/": true,
+        // "**/.classpath": true,
+        // "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+    },
+    "java.import.gradle.wrapper.enabled": false,
+    "java.autobuild.enabled": false,
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

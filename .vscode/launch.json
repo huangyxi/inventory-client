@@ -1,0 +1,79 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "client.Main",
+            "projectName": "client"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "client.Client",
+            "projectName": "client"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "test.Client",
+            "projectName": "client"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "test.Main",
+            "projectName": "client"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "test.Main",
+            "projectName": "test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "server.Main",
+            "projectName": "store"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mysql",
+            "request": "launch",
+            "mainClass": "server.Mysql",
+            "projectName": "manage-server"
+        },
+        {
+            "type": "java",
+            "name": "MySolid - (Launch)",
+            "request": "launch",
+            "mainClass": "mysolid.Main",
+            "projectName": "exp1"
+        },
+        {
+            "type": "java",
+            "name": "MyArray - (Launch)",
+            "request": "launch",
+            "mainClass": "myarray.Main",
+            "projectName": "exp1"
+        },
+        {
+            "type": "java",
+            "name": "CompileJava (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "preLaunchTask": "compileJava",
+            "mainClass": "mysolid.Main",
+            "args": ""
+        }
+    ]
+}

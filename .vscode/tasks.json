@@ -1,0 +1,48 @@
+{
+  "version": "2.0.0",
+  "command": "gradle",
+  "type": "shell",
+  // "echoCommand": true,
+  "problemMatcher": [],
+  "presentation": {
+    "echo": true,
+    "reveal": "always",
+    "focus": false,
+    "panel": "shared"
+  },
+  "tasks": [
+    {
+      "label": "run",
+      "args": [
+        "-q",
+        "run",
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": false,
+        "focus": false
+      },
+    },
+    {
+      "label": "jar",
+      "args": [
+        "jar"
+      ]
+    },
+    {
+      "label": "clean",
+      "args": [
+        "clean"
+      ]
+    },
+    {
+      "label": "build",
+      "args": [
+        "build"
+      ],
+    }
+  ]
+}
